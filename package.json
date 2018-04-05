@@ -1,0 +1,28 @@
+{
+  "name": "hydra-drone",
+  "version": "0.2.0",
+  "description": "Scans nmap and reports IP info to the server. Also requests new IPs to scan, and types of scans.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkran/hydra-scanner.git"
+  },
+  "keywords": [
+    "nmap",
+    "scanner",
+    "watchthewatchers"
+  ],
+  "author": "Daryl Kranec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkran/hydra-scanner/issues"
+  },
+  "homepage": "https://github.com/dkran/hydra-scanner#readme",
+  "dependencies": {
+    "nmap2json": "^0.5.2",
+    "ws": "^5.1.1"
+  }
+}
