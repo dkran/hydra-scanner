@@ -1,6 +1,6 @@
 {
   "name": "hydra-drone",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Scans nmap and reports IP info to the server. Also requests new IPs to scan, and types of scans.",
   "main": "app.js",
   "scripts": {
